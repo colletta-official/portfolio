@@ -11,7 +11,6 @@ article{
 	height:100%;
 	width:calc(100vh - 150px);
 	margin:0px auto;
-	background-color:green;
 	z-index:3;
 }
 #leftbutton{
@@ -32,12 +31,21 @@ article{
 	background-color:blue;
 	z-index:200;
 }
+.arrow{
+	margin:calc(50%-100px);
+	padding:0px;
+}
 #current_img{
 	position:absolute;
 	top:0px;
 	left:0px;
 	height:100%;
 	z-index:4;
+}
+#more{
+	position:absolute;
+	bottom:10px;
+	right:10px;
 }
 #description{
 	position:absolute;
