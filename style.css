@@ -7,9 +7,11 @@ article{
 	background-color:#feccd1;
 }
 #current{
+	position:relative;
 	height:100%;
 	width:100vh;
 	margin:0px auto;
+	background-color:green;
 	z-index:3;
 }
 #leftbutton{
@@ -19,7 +21,7 @@ article{
 	top:0px;
 	left:-50px;
 	background-color:red;
-	z-index:1;
+	z-index:100;
 }
 #rightbutton{
 	position:absolute;
@@ -28,7 +30,7 @@ article{
 	top:0px;
 	left:-50px;
 	background-color:blue;
-	z-index:2;
+	z-index:200;
 }
 #current_img{
 	position:absolute;
