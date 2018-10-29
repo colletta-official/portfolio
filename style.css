@@ -17,6 +17,7 @@ article{
 	position:absolute;
 	width:50px;
 	height:100%;
+	line-height:100%;
 	top:0px;
 	left:-50px;
 	background-color:red;
@@ -26,13 +27,14 @@ article{
 	position:absolute;
 	width:50px;
 	height:100%;
+	line-height:100%;
 	top:0px;
 	left:100%;
 	background-color:blue;
 	z-index:200;
 }
 .arrow{
-	margin:calc(50%-100px);
+	vertical-align:middle;
 	padding:0px;
 }
 #current_img{
