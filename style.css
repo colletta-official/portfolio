@@ -37,6 +37,9 @@ article{
 	height:100%;
 	z-index:4;
 }
+#description{
+	visibility:hidden;
+}
 footer{
 	position:fixed;
 	left:0px;
