@@ -24,6 +24,7 @@ footer{
 	white-space:nowrap;
 	overflow-x:scroll;
 	overflow-y:hidden;
+	z-index:10;
 }
 footer .border{
 	position:relative;
@@ -32,9 +33,11 @@ footer .border{
 	margin:0px auto;
 	padding:0px;
 	border-top:3px solid #7797ca;
+	z-index:12;
 }
 .navi_img{
 	width:120px;
 	height:120px;
 	margin:10px 20px;
+	z-index:11;
 }
