@@ -17,7 +17,7 @@ function righter()
 }
 function linker(n)
 {
-	current_img=n;
+	current_img=n-1;
 	current_imgLoad();
 }
 function current_imgLoad()
