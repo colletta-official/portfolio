@@ -68,7 +68,7 @@ article{
 	z-index:5;
 }
 #more:hover #description{
-	visibllity:visible;
+	visibility:visible;
 }
 footer{
 	position:fixed;
