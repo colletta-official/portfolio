@@ -1,5 +1,4 @@
 var current_img=1;
-var imgData;
 function lefter()
 {
 	if(current_img>1)
