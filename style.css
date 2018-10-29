@@ -1,22 +1,38 @@
 article{
-	position:relative;
+	position:absolute;
 	top:0px;
+	left:0px;
 	width:100%;
 	height:calc(100% - 150px);
 	background-color:#feccd1;
-	float: right;
-    	left: -50%;
 }
 
 section{
 	float:left;
-    	position: relative;
-    	left: 50%;
 	height:100%;
 }
-#current{
-	width:100px;
+#leftbutton{
+	position:absolute;
+	width:50%;
+	top:0px;
+	left:0px;
+	background-color:red;
+	z-index:1;
+}
+#rightbutton{
+	position:absolute;
+	width:50%;
+	top:0px;
+	right:0px;
 	background-color:blue;
+	z-index:2;
+}
+#current{
+	position:absolute;
+	display:inline-block;
+	left:50%;
+	background-color:green;
+	padding:10px;
 }
 #current_img{
 	height:100%;
