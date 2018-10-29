@@ -20,7 +20,6 @@ article{
 	line-height:100%;
 	top:0px;
 	left:-50px;
-	background-color:red;
 	z-index:100;
 }
 #rightbutton{
@@ -30,7 +29,6 @@ article{
 	line-height:100%;
 	top:0px;
 	left:100%;
-	background-color:blue;
 	z-index:200;
 }
 .arrow{
