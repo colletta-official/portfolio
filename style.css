@@ -9,7 +9,7 @@ article{
 #current{
 	position:relative;
 	height:100%;
-	width:100vh;
+	width:calc(100vh - 150px);
 	margin:0px auto;
 	background-color:green;
 	z-index:3;
