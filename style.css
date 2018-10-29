@@ -14,6 +14,7 @@ article{
 	z-index:3;
 }
 #leftbutton{
+	display:table;
 	position:absolute;
 	width:50px;
 	height:100%;
@@ -22,6 +23,7 @@ article{
 	z-index:100;
 }
 #rightbutton{
+	display:table;
 	position:absolute;
 	width:50px;
 	height:100%;
@@ -30,8 +32,9 @@ article{
 	z-index:200;
 }
 .arrow{
-	margin:calc(50% - 100px) 0px;
-	padding:0px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 #current_img{
 	position:absolute;
