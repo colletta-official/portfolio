@@ -20,7 +20,7 @@ article{
 	height:100%;
 	top:0px;
 	left:-50px;
-	z-index:100;
+	z-index:1;
 }
 #rightbutton{
 	display:table;
@@ -29,7 +29,13 @@ article{
 	height:100%;
 	top:0px;
 	left:100%;
-	z-index:200;
+	z-index:2;
+}
+#leftbutton:hover{
+	background-color:RGBA(255,255,255,0.8);
+}
+#rightbutton:hover{
+	background-color:RGBA(255,255,255,0.8);
 }
 .arrow{
 	display: table-cell;
@@ -49,6 +55,10 @@ article{
 	right:10px;
 	z-index:6;
 }
+#more:hover #description{
+	visibllity:visible;
+}
+
 #description{
 	position:absolute;
 	bottom:0px;
