@@ -28,8 +28,9 @@ footer{
 footer .border{
 	position:relative;
 	width:90%;
-	height:0px;
+	height:1px;
 	margin:0px auto;
+	padding:0px;
 	border-top:3px solid #7797ca;
 }
 .navi_img{
