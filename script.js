@@ -39,5 +39,5 @@ window.onload=function()
 		down.title=imgData[i].alt;
 		down.alt=imgData[i].alt;
 	}
-	current_imgLoad():
+	current_imgLoad();
 };
