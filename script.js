@@ -1,7 +1,7 @@
-var current_img=1;
+var current_img=0;
 function lefter()
 {
-	if(current_img>1)
+	if(current_img>0)
 	{
 		current_img-=1;
 		current_imgLoad();
@@ -9,7 +9,7 @@ function lefter()
 }
 function righter()
 {
-	if(current_img<8)
+	if(current_img<7)
 	{
 		current_img+=1;
 		current_imgLoad();
@@ -31,8 +31,7 @@ function current_imgLoad()
 }
 window.onload=function()
 {
-	current_img=1;
-//	imgData=JSON.parse(data);
+	current_img=0;
 	for(var i=0;i<8;i++)
 	{
 		var down=document.getElementById("under_img"+(i+1));
@@ -40,4 +39,5 @@ window.onload=function()
 		down.title=imgData[i].alt;
 		down.alt=imgData[i].alt;
 	}
+	current_imgLoad():
 };
