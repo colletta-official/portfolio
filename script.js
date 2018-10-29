@@ -1,5 +1,23 @@
 var current_img=1;
 var imgData;
+function lefter()
+{
+	if(current_img>1)
+	{
+		current_img-=1;
+	}
+}
+function righter()
+{
+	if(current_img<8)
+	{
+		current_img+=1;
+	}
+}
+function linker(n)
+{
+	current_img=n;
+}
 window.onload=function()
 {
 	current_img=1;
