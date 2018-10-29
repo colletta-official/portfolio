@@ -30,7 +30,7 @@ article{
 	z-index:200;
 }
 .arrow{
-	margin:calc(100vh - 100px) 0px;
+	margin:calc(50% - 100px) 0px;
 	padding:0px;
 }
 #current_img{
