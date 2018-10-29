@@ -25,7 +25,7 @@ footer{
 	overflow-x:scroll;
 	overflow-y:hidden;
 }
-footer #border{
+footer .border{
 	position:relative;
 	width:90%;
 	height:0px;
