@@ -3,8 +3,11 @@ article{
 	top:0px;
 	left:0px;
 	width:100%;
-	height:calc(100% - 220px);
+	height:calc(100% - 150px);
 	background-color:#feccd1;
+}
+.wrap{
+	margin:0px auto;
 }
 #current{
 	width:100px;
