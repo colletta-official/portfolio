@@ -55,10 +55,6 @@ article{
 	right:10px;
 	z-index:6;
 }
-#more:hover #description{
-	visibllity:visible;
-}
-
 #description{
 	position:absolute;
 	bottom:0px;
@@ -66,10 +62,13 @@ article{
 	width:100%;
 	height:150px;
 	overflow:hidden;
-	background-color:RGBA(0,0,0,0.7);
+	background-color:RGBA(0,0,0,0.6);
 	color:white;
 	visibility:hidden;
 	z-index:5;
+}
+#more:hover #description{
+	visibllity:visible;
 }
 footer{
 	position:fixed;
