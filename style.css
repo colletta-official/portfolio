@@ -4,7 +4,7 @@ article{
 	left:0px;
 	width:100%;
 	height:calc(100% - 220px);
-	background-color:white;
+	background-color:#feccd1;
 }
 #current{
 	width:100px;
@@ -19,14 +19,21 @@ footer{
 	left:0px;
 	bottom:0px;
 	width:100%;
-	height:210px;
-	background-color:black;
+	height:150px;
+	background-color:white;
 	white-space:nowrap;
 	overflow-x:scroll;
 	overflow-y:hidden;
 }
+footer #border{
+	position:relative;
+	width:90%;
+	height:0px;
+	margin:0px auto;
+	border-top:3px solid #7797ca;
+}
 .navi_img{
-	width:160px;
-	height:160px;
-	margin:15px 20px;
+	width:120px;
+	height:120px;
+	margin:10px 20px;
 }
