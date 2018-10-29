@@ -26,8 +26,10 @@ function current_imgLoad()
 	viewer.src="img/"+imgData[current_img].title+".png";
 	viewer.title=imgData[current_img].alt;
 	viewer.alt=imgData[current_img].alt;
-	var desc=document.getElementById("description");
-	desc.innerHTML=imgData[current_img].description;
+	var desT=document.getElementById("des_title");
+	desT.innerHTML=imgData[current_img].alt;
+	var desC=document.getElementById("des_sub");
+	desC.innerHTML=imgData[current_img].description;
 }
 window.onload=function()
 {
