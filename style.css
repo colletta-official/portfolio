@@ -32,10 +32,10 @@ article{
 	z-index:2;
 }
 #leftbutton:hover{
-	background-color:RGBA(255,255,255,0.8);
+	background-color:RGBA(255,255,255,0.2);
 }
 #rightbutton:hover{
-	background-color:RGBA(255,255,255,0.8);
+	background-color:RGBA(255,255,255,0.2);
 }
 .arrow{
 	display: table-cell;
