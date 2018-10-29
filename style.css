@@ -6,36 +6,38 @@ article{
 	height:calc(100% - 150px);
 	background-color:#feccd1;
 }
-
-section{
-	float:left;
+#wrap{
 	height:100%;
+}
+#current{
+	position:relative;
+	padding-left:100%;
+	overflow:hidden;
+	z-index:3;
 }
 #leftbutton{
 	position:absolute;
-	width:50%;
+	width:50px;
+	height:100%;
 	top:0px;
-	left:0px;
+	left:-50px;
 	background-color:red;
 	z-index:1;
 }
 #rightbutton{
 	position:absolute;
-	width:50%;
+	width:50px;
+	height:100%;
 	top:0px;
-	right:0px;
+	left:-50px;
 	background-color:blue;
 	z-index:2;
 }
-#current{
-	position:absolute;
-	display:inline;
-	text-align:center;
-	z-index:3;
-}
 #current_img{
-	height:100%;
-	margin:0px auto;
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-height:100%;
 	z-index:4;
 }
 footer{
