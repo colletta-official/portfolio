@@ -29,9 +29,8 @@ section{
 }
 #current{
 	position:absolute;
-	display:inline-block;
-	left: 50%;
-	transform: translateX(-50%);
+	display:inline;
+	text-align:center;
 	z-index:3;
 }
 #current_img{
