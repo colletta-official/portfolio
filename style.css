@@ -9,9 +9,12 @@ article{
 .wrap{
 	margin:0px auto;
 }
+section{
+	float:left;
+	height:100%;
+}
 #current{
 	width:100px;
-	height:100%;
 	background-color:blue;
 }
 #current_img{
