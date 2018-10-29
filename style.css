@@ -30,12 +30,13 @@ section{
 #current{
 	position:absolute;
 	display:inline-block;
-	left:50%;
+	margin:0px auto;
 	background-color:green;
-	padding:10px;
+	z-index:3;
 }
 #current_img{
 	height:100%;
+	z-index:4;
 }
 footer{
 	position:fixed;
