@@ -5,14 +5,14 @@ article{
 	width:100%;
 	height:calc(100% - 150px);
 	background-color:#feccd1;
+	float: right;
+    	left: -50%;
 }
-.wrap{
-	width:auto;
-	height:100%;
-	margin:0px auto;
-}
+
 section{
 	float:left;
+    	position: relative;
+    	left: 50%;
 	height:100%;
 }
 #current{
