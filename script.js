@@ -22,11 +22,11 @@ function linker(n)
 }
 function current_imgLoad()
 {
-	var viewer=document.getElementById("current_img"));
+	var viewer=document.getElementById("current_img");
 	viewer.src="img/"+imgData[current_img].title+".png";
 	viewer.title=imgData[current_img].alt;
 	viewer.alt=imgData[current_img].alt;
-	var desc=document.getElementById("description"));
+	var desc=document.getElementById("description");
 	desc.innerHTML=imgData[current_img].description;
 }
 window.onload=function()
