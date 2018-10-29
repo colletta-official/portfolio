@@ -53,7 +53,7 @@ article{
 	position:absolute;
 	bottom:10px;
 	right:10px;
-	z-index:6;
+	z-index:5;
 }
 #description{
 	position:absolute;
@@ -67,8 +67,19 @@ article{
 	visibility:hidden;
 	z-index:5;
 }
+#description #des_title{
+	margin:5px;
+	font-size:16pt;
+}
+#description #des_sub{
+	margin:5px;
+	font-size:10pt;
+}
 #more:hover #description{
 	visibility:visible;
+}
+#more img{
+	z-index:6;
 }
 footer{
 	position:fixed;
